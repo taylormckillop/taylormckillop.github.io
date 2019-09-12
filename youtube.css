@@ -27,9 +27,23 @@ body,html {
     background-color: rgb(248, 252, 144);
 margin-top: 100px;
 margin-left: 100px;
-margin-bottom: 50px;
+
 }
 
+.main {
+    display: grid;
+    width: 95%;
+    background: rgb(255, 255, 255);
+    margin-top: 70px;
+    margin-left: 8%;
+}
+
+.titlebar{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(248, 252, 144);
+margin-top: 50px;
+}
 
 .videorow {
     display: grid;
@@ -37,16 +51,23 @@ margin-bottom: 50px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 1rem;
+    margin-bottom: 50px;
  
 }
 .video{
-    height: 20px;
+    height: 170px;
     background: rgb(251, 207, 51);
+  
 }
 
 .featuredvideos{
     display: grid;
     width: 80%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+
+}
+.videolong{
+    height: 170px;
+    background: rgb(251, 207, 51);
 }
