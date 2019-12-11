@@ -1,3 +1,401 @@
-body{
-    background-color: lightcoral;
+
+img{
+  max-width: 100%;
 }
+.logo{
+  width: 10%;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(250, 231, 236);
+    height: 105px
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: rgb(112, 112, 112);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: essonnes-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    margin-top: 10%;
+
+  }
+  
+  li a:hover {
+    background-color: white;
+  }
+
+  body{
+      background-image: url(/images/lighest.png);
+      background-size: cover;       
+  }
+.content{
+  display: grid;
+  grid-template-columns: 1.3fr .3fr 1fr;
+  margin-bottom: 7%;
+}
+
+.title{
+  font-family: essonnes-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(112, 112, 112);
+  font-size:3em;
+  margin-bottom: 0%;
+  margin-left: 10%;
+  margin-top: -35px;
+
+}
+.bio{
+  background-color: rgb(239, 239, 239);
+  margin-top: 20%;
+  margin-bottom: 0%;
+  margin-left: 10%;
+}
+.description{
+  font-family: essonnes-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(112, 112, 112);
+  text-align: center;
+  font-size: 2em;
+  margin-top: -15px;
+  margin-bottom: 0%;
+}
+.picture{
+  grid-column: 1 / span 2;
+  margin-top: -300px;
+  margin-left: 2%;
+}
+
+.profile{
+  grid-column: 2 / span 3;
+  margin-top: 15%;
+  border: 15px solid white;
+}
+
+.blonde{
+font-family: renata, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 4em;
+margin-top: -20px;
+margin-bottom: 0%;
+margin-left: 40%;
+color: rgb(112, 112, 112);
+}
+
+.magic{
+font-family: renata, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 5em;
+color: rgb(112, 112, 112);
+text-align: center;
+margin-top: -15px;
+}
+
+.quote{
+font-family: essonnes-display, serif;
+font-weight: 300;
+font-style: italic;
+text-align: center;
+font-size: 2em;
+color: rgb(112, 112, 112);
+background-color: rgb(239, 239, 239);
+margin-right: 10%;
+}
+
+.content2{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 5%;
+}
+
+.top{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 200;
+font-style: italic;
+font-size: 2em;
+margin-left: 5%;
+margin-bottom: 3%;
+margin-top: 10%;
+}
+
+.college{
+font-family: essonnes-display, serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 2em;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.info{
+font-family: essonnes-display, serif;
+font-weight: 300;
+font-style: normal;
+text-align: center;
+margin-top: 0%;
+font-size: 1.5em;
+}
+
+.education{
+  background-color: rgb(255, 247, 230);
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-bottom: 50%;
+}
+.tape{
+  margin-left: 20%;
+  margin-top: -40px;
+}
+
+.content3{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 7%;
+}
+
+.experience{
+  background-color: rgb(255, 247, 230);
+  margin-top: 20%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+}
+.jacket{
+  border: 15px solid white;
+}
+
+.top2{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 200;
+font-style: italic;
+font-size: 2em;
+margin-left: 5%;
+margin-bottom: 3%;
+margin-top: 10%;
+}
+
+.position{
+font-family: essonnes-display, serif;
+font-weight: 400;
+font-style: normal;
+margin-left: 5%;
+font-size: 2em;
+margin-bottom: 0%;
+}
+.company{
+font-family: essonnes-display, serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.location{
+font-family: essonnes-display, serif;
+font-weight: 300;
+font-style: normal;
+margin-left: 5%;
+font-size: 1.5em;
+margin-top: 0%;
+}
+
+.floridapic{
+  transform-origin: center;
+  transform: rotate(-2deg);
+  margin-left: 2%;
+  border: 15px solid white;
+}
+
+.content4{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.top3{
+font-family: forma-djr-micro, sans-serif;
+font-weight: 200;
+font-style: italic;
+font-size: 2em;
+margin-left: 5%;
+margin-top: 0%;
+}
+
+.tape2{
+margin-left: 35%;
+height: 50px;
+}
+
+.skills{
+font-family: essonnes-display, serif;
+font-weight: 700;
+font-style: normal;
+color: rgb(112, 112, 112);
+}
+
+
+.laststickie{
+  background-color: rgb(255, 247, 230);
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.noble{
+  font-family: 'League Script', cursive;
+  color: rgb(112, 112, 112);
+  text-align: center;
+  font-size: 3.5em;
+
+}
+
+.noblestart{
+  margin-top: 0%;
+  margin-bottom: 5%;
+
+  
+}
+.noblestarttop{
+  margin-bottom: 0%;
+}
+
+.projects{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: white;
+
+}
+
+.project img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+
+.project {
+ border: 10px solid white;
+}
+
+.caption {
+  display: none;
+  font-family: essonnes-display, serif;
+    font-weight: 400;
+    font-style: italic;
+  color: rgb(112, 112, 112);
+  text-align: center;
+  font-size: 2em;
+}
+
+.project:hover {
+  width: auto;
+  margin: 0;
+  position: relative;
+}
+
+.project:hover .caption {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color:white;
+  opacity: 90%;
+  margin: 0;
+}
+
+.projectname{
+  font-family: renata,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2.5em;
+text-align: center;
+margin-bottom: 0%;
+margin-top: 5%;
+}
+
+
+.projectinfo{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.projectstickie{
+  background-color: rgb(255, 247, 230);
+  height: 300px;
+  margin-top: 20%;
+  width: 80%;
+  margin-left: 15%;
+}
+
+
+.infoaboutproject{
+  font-family: essonnes-display, serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 2em;
+margin-top: 10%;
+}
+
+.application{
+  font-family: essonnes-display, serif;
+font-weight: 300;
+font-style: italic;
+text-align: center;
+}
+
+.my-slider{
+  width: 50%;
+  height: 500px;
+}
+
+.my-slider div {
+  background-color: white;
+}
+
+
+
+.tns-outer button['start'] {
+}
+
+
+.otheroptions{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.other img{
+max-height: 300px;
+display: block;
+border: black 5px solid;
+margin: auto;
+margin-top: 10%;
+}
+
+.my-slider img{
+  max-width: 100%;
+  max-height: 500px;
+  margin: auto;
+  display: block;
+}
+
+
+
+
